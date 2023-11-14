@@ -1,0 +1,108 @@
+:root{
+    --mainColor:#ff206e;
+}
+
+
+.header{
+    background-image: url('../img/bg_osaka.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.header-content .aa{
+    color: var(--mainColor);
+    text-decoration: none;
+
+}
+.icon{
+    width: 3rem;
+    height: 3rem;
+    transition: background-color 1s;
+}
+.header .icon:hover {
+    background-color:var(--mainColor);
+ }
+
+.navbar-nav .nav-link.active{
+    color: var(--mainColor) !important;
+    
+}
+
+.navbar-nav .nav-item :hover{
+    color: var(--mainColor)!important;
+    
+}
+
+
+
+
+.about{
+    background-image: url(../img/light_dot.jpg);
+}
+.page-2 h2{
+    letter-spacing: 15px !important;
+    font-size: 4rem !important;
+    color: #cacaca;
+    font-weight: 900 !important;
+   
+}
+.page-2 p:first-of-type{
+    font-size: 2rem !important;
+    font-weight: 900 !important;   
+}
+.about-content p:first-of-type{
+    color: var(--mainColor);
+}
+
+.Services1{
+    background-image: url(../img/dark_dot.jpg);
+}
+.Services1 h2{
+    color: #222;
+}
+.Service-icon{
+    width: 3rem;
+    height: 3rem;
+    transition: background-color 1s;
+    background-color: #000 !important;
+}
+.Services1 .Service h2:after{
+    content: '';
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    width: 10%;
+    height: 3px;
+    transform: translateX(-50%);
+    background-color: var(--mainColor);
+    transition: width 1s; 
+}
+
+
+.Service:hover .Service-icon{
+   background-color: var(--mainColor) !important;    
+}
+
+
+.Services1 .Service:hover h2:after{
+    width: 30%;     
+}
+.clients .client img{
+    width: 110px;
+    height: 110px;
+}
+.carousel-indicators [data-bs-target]{
+    width: 2rem;
+    height: 2rem;
+    text-indent: 0;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    color: var(--mainColor)!important;
+    border: none;
+}
+ .nav-tabs .nav-link{
+    color: black;
+    border: none;
+    
+
+}
